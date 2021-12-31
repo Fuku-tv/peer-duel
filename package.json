@@ -4,7 +4,8 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "config/*"
   ],
   "scripts": {
     "build": "turbo run build",
@@ -21,6 +22,7 @@
     "rimraf": "^3.0.2",
     "turbo": "*"
   },
+  "peerDependencies": {},
   "turbo": {
     "pipeline": {
       "build": {

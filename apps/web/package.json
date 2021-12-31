@@ -1,12 +1,12 @@
 {
-  "name": "next-app",
+  "name": "web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
-    "test": "echo \"Next-app tests\"",
+    "test": "echo \"web tests\"",
     "lint": "eslint src --fix"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
     "@types/node": "^17.0.0",
     "@types/react": "^17.0.37",
     "autoprefixer": "^10.4.0",
-    "config": "*",
+    "eslint-config": "*",
     "eslint": "^8.5.0",
     "next-transpile-modules": "^9.0.0",
     "postcss": "^8.4.4",
