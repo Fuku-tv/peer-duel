@@ -1,6 +1,6 @@
-# peer-duel
+# Turborepo starter
 
-peer to peer dueling, warioware style games via webcam
+This is an official Yarn v1 starter turborepo.
 
 ## What's inside?
 
